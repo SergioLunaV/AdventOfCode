@@ -1,4 +1,4 @@
-file = open("example_input", "r")
+file = open("input", "r")
 lines = file.readlines()
 file.close()
 
@@ -13,6 +13,7 @@ for line in lines:
     for character in line :
         if character.isdigit() and first_digit == "":
             first_digit = character
+            last_digit = character
 
         elif character.isdigit() and first_digit != "":
             last_digit = character
