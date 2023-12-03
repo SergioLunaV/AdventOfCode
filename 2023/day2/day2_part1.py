@@ -14,8 +14,8 @@ game_id_sum = 0
 for line in text:
    # Separate the game and the sets
     splitted_game = line.split(':')
-    game = splitted_game[0].split(' ')
-    sets = splitted_game[1].split(';') # Separated sets
+    game = splitted_game[0].split(' ') # Separate "Game" and id
+    sets = splitted_game[1].split(';') # Separate sets
 
     game_id = game[1]    
     valid_game = True
