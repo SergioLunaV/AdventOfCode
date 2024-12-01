@@ -1,5 +1,5 @@
-# advent_of_code
+# AdventOfCode
 
-My advent of code.
+My advent of code made every year.
 
 https://adventofcode.com/
